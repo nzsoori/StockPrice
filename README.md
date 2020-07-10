@@ -23,6 +23,11 @@ Expectations
 Implement a solution in Java.
 Prove it works by creating unit tests that test the possible scenarios that the numbers could present.
 
-All code was developed using the IntelliJ IDEA
+All code was developed using the IntelliJ IDEA tested code coverage
+
+Output:
+returns 6 (buy at $5 sell at $11)
+Max profit earned is 6$
+
 
 
