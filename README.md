@@ -22,3 +22,7 @@ Expectations
 
 Implement a solution in Java.
 Prove it works by creating unit tests that test the possible scenarios that the numbers could present.
+
+All code was developed using the IntelliJ IDEA
+
+
