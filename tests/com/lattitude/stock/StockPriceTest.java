@@ -14,7 +14,6 @@ public class StockPriceTest {
     @Test
     @DisplayName("getMaxProfit Method for expected and unexpected")
     void StockPriceTestSuccessFail() {
-
         int[] stockPrices = {10, 7, 5, 8, 11, 9};
         Assertions.assertAll(
                 () -> Assertions.assertEquals(6 ,StockPrice.getMaxProfit(stockPrices)),
