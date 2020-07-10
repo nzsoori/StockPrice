@@ -11,7 +11,6 @@ public class StockPriceTest {
     void init() {
          sp=new StockPrice();
     }
-
     @Test
     @DisplayName("getMaxProfit Method for expected and unexpected")
     void StockPriceTestSuccessFail() {

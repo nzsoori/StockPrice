@@ -1,7 +1,5 @@
 package com.lattitude.stock;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.stream.IntStream;
 
 public class StockPrice {
@@ -10,7 +8,7 @@ public class StockPrice {
         int bestprofit =getMaxProfit(stockPrices);
         System.out.print("Max profit earned is " + bestprofit+"$");
     }
-    public static int getMaxProfit(@NotNull int[] stockPrices) {
+    public static int getMaxProfit( int[] stockPrices) {
         final int[] minBuy = {stockPrices[0]};
         final int[] maxSell = {Integer.MIN_VALUE};
         final int[] bestProfit = {Integer.MIN_VALUE};
